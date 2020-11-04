@@ -9,6 +9,6 @@ add home_2.html
 
 update log 3/11
 remove  home_@
-rename home_! to index
+rename home_1 to index
 task : Gallery and menu (Gilang's)
 Home and About us (Zinedine's)
