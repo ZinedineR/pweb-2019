@@ -7,4 +7,8 @@ add home_1.html
 add home_2.html
 (making two home page as can't decide which one is the best form for home page)
 
-going to do about us
+update log 3/11
+remove  home_@
+rename home_! to index
+task : Gallery and menu (Gilang's)
+Home and About us (Zinedine's)
