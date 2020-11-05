@@ -2,11 +2,13 @@
     box-sizing: border-box;
 }
 html {
-    overflow-y: scroll;
-    overflow-x:hidden;
 }
 body {
     background-image: url("../object/home.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 header {
     padding: 5px;
@@ -26,13 +28,22 @@ footer{
 }
 ul {
     list-style-type: none;
-    margin-top: 20px;
+    margin: auto;
     padding: 0;
     overflow: hidden;
     background-color: #a9a9a9;
     opacity: 80%;
 }
-
+li.logo{
+    float: left;
+    margin-left: 20%;
+}
+li.logo img{
+    margin: auto;
+    display: block;
+    max-height: 50%;
+    height: 60px;
+}
 li {
     float: right;
 }
@@ -62,17 +73,17 @@ table.home {
     opacity: 80%;
     margin-bottom: 154px;
 }
-table.about{
+table.about {
     margin-top: 50px;
-    margin-right: 20px;
+    margin-bottom: 154px;
+    margin-right: auto;
+    margin-left: auto;
     padding: 80;
     text-align: center;
     background-color: white;
     opacity: 80%;
-    margin-bottom: 154px;
-
 }
-td {
+table.home td, table.about td{
     padding: 15px;
 }
 td.hour {
@@ -83,6 +94,13 @@ td.when {
     height: 80px;
     color: #784d2c;
 }
+td.texty {
+    font-family: Corbel;
+    font-size: large;
+    height: 80px;
+    color: #784d2c;
+}
+
 .follow{
     float: left;
 }
@@ -101,3 +119,7 @@ form {
     background-color: white;
     opacity: 80%;
 }
+form table{
+
+}
+

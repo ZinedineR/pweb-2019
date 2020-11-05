@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
+    <link rel="icon"  type="image/jpeg" href="object/head.png">
     <meta charset="UTF-8">
     <title>Heaven's Cafe</title>
     <link rel="stylesheet" href="style/heaven.css">
 </head>
 <header>
     <ul>
+        <li class="logo"><img src="object/logo.png"></li>
         <li><a href="menu.html">MENU</a></li>
         <li><a href="gallery.html">GALLERY</a></li>
         <li><a href="about.html">ABOUT US</a></li>
@@ -43,16 +45,31 @@
 </section>
 <footer>
         <form>
-            <fieldset>
-                <label for="email">Masukkan E-mail anda disini :</label><br>
-  				<input type="text" id="email" name="email" value="E-mail"><br>
-				<label for="kritiksaran">Kritik dan Saran :</label><br>
-				<input type="text" id="kritiksaran" name="kritiksaran" value="Kritik dan Saran"><br><br>
-				<input type="checkbox" id="subscribe" name="subscribe" value="Subscribe">
-  				<label for="subscribe"> Apakah anda ingin kami hubungi melalui E-Mail sebagai tanda terima kasih kami atas kritik dan saran yang anda berikan?</label><br>
-				<input type="submit" value="Submit">
-
-            </fieldset>
+            <table class="formy">
+                <tr>
+                    <td><label for="email">Masukkan E-mail anda disini :</label></td>
+                    <td><input type="text" id="email" name="email" value="E-mail"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><label for="kritiksaran">Kritik dan Saran :</label></td>
+                    <td><input type="text" id="kritiksaran" name="kritiksaran" value="Kritik dan Saran"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" id="subscribe" name="subscribe" value="Subscribe">
+                        <label for="subscribe"> Apakah anda ingin kami hubungi melalui E-Mail sebagai tanda terima kasih kami atas kritik dan saran yang anda berikan?</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br>
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
         </form>
 </footer>
 </body>
