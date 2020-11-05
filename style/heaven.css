@@ -11,8 +11,11 @@ body {
 header {
     padding: 5px;
 }
-section {;
+section.home {
     float: right;
+    position: relative;
+}
+section.nothome{
     position: relative;
 }
 footer{
@@ -47,10 +50,10 @@ li a:hover:not(.active) {
 }
 
 .active {
-    font-color: saddlebrown;
+    color: saddlebrown;
 }
 
-table{
+table.home {
     margin-top: 50px;
     margin-right: 20px;
     padding: 80;
@@ -58,6 +61,16 @@ table{
     background-color: white;
     opacity: 80%;
     margin-bottom: 154px;
+}
+table.about{
+    margin-top: 50px;
+    margin-right: 20px;
+    padding: 80;
+    text-align: center;
+    background-color: white;
+    opacity: 80%;
+    margin-bottom: 154px;
+
 }
 td {
     padding: 15px;
@@ -68,7 +81,7 @@ td.hour {
 }
 td.when {
     height: 80px;
-    color: #784d2c
+    color: #784d2c;
 }
 .follow{
     float: left;
