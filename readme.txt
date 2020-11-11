@@ -13,4 +13,6 @@ rename home_1 to index
 task : Gallery and menu (Gilang's)
 Home and About us (Zinedine's)
 
+10/11-11/11
+Finishing gallery and menu
 planning to complete pages's structure this week
