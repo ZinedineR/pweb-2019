@@ -60,18 +60,25 @@ li a:hover:not(.active) {
     background-color: #111;
 }
 
-.active {
+a:active {
     color: saddlebrown;
 }
-
+a.current {
+    color: saddlebrown;
+    font-weight: bold;
+}
+.ig:hover{
+    filter: drop-shadow(0 0 5px grey);
+}
 table.home {
     margin-top: 50px;
     margin-right: 20px;
     padding: 80;
     text-align: center;
     background-color: white;
-    opacity: 80%;
+    opacity: 95%;
     margin-bottom: 154px;
+    border-style: none
 }
 table.about {
     margin-top: 50px;
@@ -81,7 +88,7 @@ table.about {
     padding: 80;
     text-align: center;
     background-color: white;
-    opacity: 80%;
+    opacity: 95%;
 }
 table.home td, table.about td{
     padding: 15px;
@@ -103,6 +110,11 @@ td.texty {
 
 .follow{
     float: left;
+    color: white;
+}
+.rowfollow{
+    width: 240px;
+    background-color: #6b3b17;
 }
 .line{
     width: 100%;
@@ -110,6 +122,14 @@ td.texty {
     margin-left: auto;
     margin-right: auto;
     background-color: #ace1df;
+    border: 0 none;
+}
+.linemenu{
+    width: 100%;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
     border: 0 none;
 }
 .size {
@@ -146,7 +166,8 @@ div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
-  width: 260px;
+  width: 480px;
+  position: relative;
 }
 
 div.gallery:hover {
@@ -155,17 +176,11 @@ div.gallery:hover {
 
 div.gallery img {
   width: 100%;
+  max-height: 640px;
   height: auto;
 }
-
-div.desc {
-  padding: 50px;
-  text-align: center;
-}
-
 div.menu {
   margin: 5px;
-  border: 1px solid #ccc;
   float: left;
   width: 300px;
 }
@@ -182,4 +197,11 @@ div.menu img {
 div.desc {
   padding: 15px;
   text-align: center;
+}
+div.desc1 {
+  padding: 15px;
+  text-align: center;
+  font-family: "Brush Script MT";
+  font-size: larger;
+  color:gray;
 }
