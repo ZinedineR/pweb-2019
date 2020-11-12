@@ -16,3 +16,6 @@ Home and About us (Zinedine's)
 10/11-11/11
 Finishing gallery and menu
 planning to complete pages's structure this week
+
+12/11
+Beautify the pages, color, image resizing, font family picking
