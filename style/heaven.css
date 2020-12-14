@@ -67,6 +67,13 @@ a.current {
     color: saddlebrown;
     font-weight: bold;
 }
+ul.navbar-responsive li.navbar-children ul{
+    display: None;
+    list-style: none;
+}
+ul.navbar-responsive li.navbar-children.active ul{
+    display: inline;
+}
 .ig:hover{
     filter: drop-shadow(0 0 5px grey);
 }
