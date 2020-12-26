@@ -44,14 +44,13 @@
         <tr class="rowfollow">
             <td class="rowfollow">
                 <div class="follow">FOLLOW US</div>
-                <a class="ig" href="https://www.instagram.com/heavenscafe.id/"><img class="size" width="15" height="15"
-                                                                                    src="object/insta.png"></a></td>
+                <a class="ig" href="https://www.instagram.com/heavenscafe.id/"><img class="size" width="15" height="15" src="object/insta.png"></a></td>
         </tr>
         </tbody>
     </table>
 </section>
 <footer>
-    <form>
+    <form action="post" name="form">
         <table>
             <thead>
             <tr>
@@ -60,15 +59,15 @@
             </thead>
             <tbody>
             <tr>
-                <td><label for="email">Masukkan E-mail anda disini :</label></td>
-                <td><input type="text" id="email" name="email" value="E-mail"></td>
+                <td><label>Masukkan E-mail anda disini :</label></td>
+                <td><input type="text" id="email"></td>
             </tr>
             <tr>
                 <td></td>
             </tr>
             <tr>
-                <td><label for="kritiksaran">Kritik dan Saran :</label></td>
-                <td><input type="text" id="kritiksaran" name="kritiksaran" value="Kritik dan Saran"></td>
+                <td><label>Kritik dan Saran :</label></td>
+                <td><input type="text" id="kritik"></td>
             </tr>
             <tr>
                 <td></td>
@@ -79,13 +78,26 @@
             </tr>
             <tr>
                 <td>
-                    <br>
-                    <input type="submit" value="Submit">
+                    <input type="submit" onclick="myFunction()">
                 </td>
             </tr>
             </tbody>
         </table>
     </form>
+    <table border="4" id="show">
+        <thread>
+            <tr>
+                <th>Email</th>
+                <th>Kritik Saran</th>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+        </thread>
+    </table>
+
 </footer>
+<script src="style/heaven.js"></script>
 </body>
 </html>
