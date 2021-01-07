@@ -20,8 +20,6 @@
     <table>
         <body>
         <table class="about">
-            <td>
-                <tr>
                 <tr>
                     <td class="hour">
                         <div class="line"></div>
@@ -32,36 +30,38 @@
                 <tr>
                     <td>
                         <div class="menu">
-                            <a target="_blank" href="object/m1.jpg">
-                                <img src="object/m1.jpg">
-                            </a>
+                            <img id="popup-img" onclick="showImg(this);" src="object/m1.jpg" alt="Taste the pure black cofee with joy">
                             <div class="desc">V60/Japanese Style</div>
                             <div class="linemenu"></div>
                             <div class="desc1">Arabica dan Robusta</div>
                         </div>
+                    </td>
+                </tr>
+                    <td>
                         <div class="menu">
-                            <a target="_blank" href="object/m2.jpg">
-                                <img src="object/m2.jpg">
-                            </a>
+                            <img id="popup-img" onclick="showImg(this);" src="object/m2.jpg" alt="Taste the blended milk and cofee with joy">
                             <div class="desc">Kopi Susu</div>
                             <div class="linemenu"></div>
                             <div class="desc1">House blend Cofee</div>
                         </div>
-
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <div class="menu">
-                            <a target="_blank" href="object/m3.jpg">
-                                <img src="object/m3.jpg">
-                            </a>
+                            <img id="popup-img" onclick="showImg(this);" src="object/m3.jpg" alt="Taste the pure black cofee with Dripped Vietnam">
                             <div class="desc">Vietnam Drip</div>
                             <div class="linemenu"></div>
                             <div class="desc1">Arabica dan Robusta</div>
                         </div>
                     </td>
                 </tr>
-                </tr>
-            </td>
+        </div>
         </table>
-
+        <div id="thepopup" class="modal" class="close" onclick="document.getElementById('thepopup').style.display='none'">
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
         </body>
-
+        <script src="style/heaven.js"></script>
 </html>
