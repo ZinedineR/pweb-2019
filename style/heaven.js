@@ -1,11 +1,7 @@
-function myFunction(){
-    const email = document.forms["form"]["email"].value;
-    const kritik = document.forms["form"]["kritik"].value;
-    const tableOutput = document.getElementById('show')
-    tableOutput.rows[1].cells[0].innerHTML = email
-    tableOutput.rows[1].cells[1].innerHTML = kritik
+function register(){
+    alert("Terima kasih sudah mendaftar sebagai member Heaven's cafe");
 }
-
+// fungsi jsnavbar
 var navbar = document
     .querySelectorAll(
         'ul.navbar-responsive li.navbar-children a'

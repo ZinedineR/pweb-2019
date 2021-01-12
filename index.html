@@ -50,20 +50,21 @@
     </table>
 </section>
 <footer>
-    <form action="post" name="form">
+    <form name="form" action="index.html">
         <table>
             <thead>
             <tr>
-                <th colspan="2">Kritik dan Saran</th>
+                <th colspan="2">Daftar sebagai member</th>
             </tr>
             </thead>
             <tbody>
             <tr>
-                <td><label>Masukkan E-mail anda disini :</label></td>
-                <td><input type="text" id="email"></td>
+                <td><label>Nama :</label></td>
+                <td><input type="text" id="nama"></td>
             </tr>
             <tr>
-                <td></td>
+                <td><label>Masukkan E-mail anda disini :</label></td>
+                <td><input type="text" id="email"></td>
             </tr>
             <tr>
                 <td><label>Kritik dan Saran :</label></td>
@@ -72,30 +73,18 @@
             <tr>
                 <td></td>
                 <td><input type="checkbox" id="subscribe" name="subscribe" value="Subscribe">
-                    <label for="subscribe"> Apakah anda ingin kami hubungi melalui E-Mail sebagai tanda terima kasih
-                        kami atas kritik dan saran yang anda berikan?</label>
+                    <label for="subscribe"></label>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <input type="submit" onclick="myFunction()">
+                    <button onclick="register()">Daftarkan Saya!</button>
                 </td>
             </tr>
             </tbody>
         </table>
     </form>
-    <table border="4" id="show">
-        <thread>
-            <tr>
-                <th>Email</th>
-                <th>Kritik Saran</th>
-            </tr>
-            <tr>
-                <td>-</td>
-                <td>-</td>
-            </tr>
-        </thread>
-    </table>
+
 
 </footer>
 <script src="style/heaven.js"></script>
