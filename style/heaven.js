@@ -2,6 +2,17 @@ function register(){
     alert("Terima kasih sudah mendaftar sebagai member Heaven's cafe");
 }
 // fungsi jsnavbar
+
+function button() {
+    var txt;
+    if (confirm("Terima kasih atas dukungan anda")) {
+      txt = "Selesai";
+    } else {
+      txt = "Cancel!";
+    }
+    document.getElementById("demo").innerHTML = txt;
+  }
+
 var navbar = document
     .querySelectorAll(
         'ul.navbar-responsive li.navbar-children a'
