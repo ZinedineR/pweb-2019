@@ -1,12 +1,8 @@
-function form(){
-    const email = document.forms["form"]["email"].value;
-    const kritik = document.forms["form"]["kritik"].value;
-    const tableOutput = document.getElementById('show')
-    tableOutput.rows[1].cells[0].innerHTML = email
-    tableOutput.rows[1].cells[1].innerHTML = kritik
+function register(){
+    alert("Terima kasih sudah mendaftar sebagai member Heaven's cafe");
 }
+// fungsi jsnavbar
 
-<<<<<<< HEAD
 function button() {
     var txt;
     if (confirm("Terima kasih atas dukungan anda")) {
@@ -16,7 +12,7 @@ function button() {
     }
     document.getElementById("demo").innerHTML = txt;
   }
-=======
+
 var navbar = document
     .querySelectorAll(
         'ul.navbar-responsive li.navbar-children a'
@@ -57,4 +53,3 @@ function showImg(ele){
     captionText.innerHTML = ele.alt;
 }
 var close = document.getElementsByClassName("close")[0];
->>>>>>> 71afccb04dd78468a7d765a475c9646be56ccfff

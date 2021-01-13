@@ -51,20 +51,22 @@
     </table>
 </section>
 <footer>
-    <form>
+    <form name="form" action="index.html">
         <table>
             <thead>
             <tr>
-                <th colspan="2">Kritik dan Saran</th>
+                <th colspan="2">Daftar sebagai member</th>
             </tr>
             </thead>
             <tbody>
             <tr>
-                <td><label for="email">Masukkan E-mail anda disini :</label></td>
-                <td><input type="text" id="email" name="email" value="E-mail"></td>
+
+                <td><label>Nama :</label></td>
+                <td><input type="text" id="nama"></td>
             </tr>
             <tr>
-                <td></td>
+                <td><label>Masukkan E-mail anda disini :</label></td>
+                <td><input type="text" id="email"></td>
             </tr>
             <tr>
                 <td><label for="kritiksaran">Kritik dan Saran :</label></td>
@@ -73,12 +75,12 @@
             <tr>
                 <td></td>
                 <td><input type="checkbox" id="subscribe" name="subscribe" value="Subscribe">
-                    <label for="subscribe"> Apakah anda ingin kami hubungi melalui E-Mail sebagai tanda terima kasih
-                        kami atas kritik dan saran yang anda berikan?</label>
+                    <label for="subscribe"></label>
                 </td>
             </tr>
             <tr>
                 <td>
+
                     <br>
                     <button onclick="button()">Submit</button>
                 </td>
