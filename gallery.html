@@ -27,35 +27,22 @@
             </tr>
             <tr>
                 <td>
-                    <div class="gallery">
-                        <a href="object/gl1.jpeg">
-                            <img src="object/gl4.jpeg">
-                        </a>
-                    </div>
-                    <div class="gallery">
-                        <a href="object/gl2.jpeg">
-                            <img src="object/gl3.jpeg">
-                        </a>
-                    </div>
+                    <img id="popup-img" onclick="showImg(this);" src="object/gl4.jpeg" alt="the euphoria">
+                    <img id="popup-img" onclick="showImg(this);" src="object/gl3.jpeg" alt="the table">
                 </td>
             </tr>
             <tr>
                 <td>
-                    <div class="gallery">
-                        <a href="object/gl3.jpeg">
-                            <img src="object/gl2.jpeg">
-                        </a>
-                    </div>
-                    <div class="gallery">
-                        <a href="object/gl4.jpeg">
-                            <img src="object/gl1.jpeg">
-                        </a>
-                    </div>
+                    <img id="popup-img" onclick="showImg(this);" src="object/gl2.jpeg" alt="the cofee">
+                    <img id="popup-img" onclick="showImg(this);" src="object/gl1.jpeg" alt="the friends">
                 </td>
             </tr>
     </table>
-
+    <div id="thepopup" class="modal" class="close" onclick="document.getElementById('thepopup').style.display='none'">
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
 </section>
 </body>
-
+<script src="style/heaven.js"></script>
 </html>
